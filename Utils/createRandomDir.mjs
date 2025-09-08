@@ -44,7 +44,7 @@ async function main() {
   const DB = new Map([
     ["Shopping", new Set(["restaurant", "food", "clothing"])],
     ["Vacations", new Set(["Paris", "NY"])],
-    ["Stores", new Set(["2024", "Evry", "Paris", "NY"])],
+    ["Stores", new Set(["2025", "Evry", "Paris", "NY"])],
   ]);
   for (const [catName, catSet] of DB) {
     await createDir(catName);
