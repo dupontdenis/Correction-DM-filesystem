@@ -22,7 +22,7 @@ const salesTotalsDir = "salesTotals";
 try {
     await access(salesDir);
 } catch (error) {
-    console.log(`The directory '${salesDir}' does not exist. Please create it before running the app. You can run 'node createRandomDir.mjs' to create the directory and some sales files.`);
+    console.log(`The directory '${salesDir}' does not exist. Please create it before running the app. You can run 'node Utils/createRandomDir.mjs' to create the directory and some sales files.`);
     process.exit(0);
 }
 
